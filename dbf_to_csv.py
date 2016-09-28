@@ -1,3 +1,6 @@
+'''The goal is to read dbf files and transform data to csv for analysis.
+There exists several modules like this. However I use encoders to read non-ascii characters and latin words.'''
+
 import dbfread
 from dbfread import DBF
 import csv
