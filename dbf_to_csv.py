@@ -1,11 +1,13 @@
 '''The program reads all *.dbf files in a folder and exports to *.csv.
-Several programs like this are available online. However, I use encoders to read non-ascii characters and latin words. Particularly useful with Spanish databases.
+Several programs like this are available online. However, I use encoders to read non-ascii characters and latin words.
+Particularly useful with Spanish databases.
 '''
 
 # ADD FOLDER ADDRESS IN THE FOLLOWING LINE:
 address = "C:\files\...\"
 
 # ==================================================================================================
+# ! USING DBFREAD PYTHON MODULE! https://github.com/olemb/dbfread/
 import dbfread
 from dbfread import DBF
 import csv
